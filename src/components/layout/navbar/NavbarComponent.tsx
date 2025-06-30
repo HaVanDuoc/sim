@@ -23,7 +23,7 @@ const NavbarComponent: React.FC<Props> = ({ toggleNav }) => {
       className="w-full h-[13vh] bg-gradient-to-r from-pink-200 via-purple-200 to-blue-200 dark:from-dark dark:to-dark"
     >
       <div className="container h-full mx-auto flex items-center justify-between">
-        <LogoComponent logo="NFTHub" />
+        <LogoComponent logo="SIM" />
         {/* Nav Links */}
         <nav className="hidden lg:flex flex-row gap-7">
           {NAV_LINKS.map((nav) => (

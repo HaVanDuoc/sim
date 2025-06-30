@@ -12,8 +12,8 @@ const font = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "NFT Hub",
-  description: "NFT Website Template using NextJs",
+  title: "SIM Consortio",
+  description: "SIM Website Template using NextJs",
 };
 
 export default function RootLayout({

@@ -36,6 +36,14 @@ const NavbarMobile: React.FC<Props> = ({ show, toggleNav }) => {
           <div
             className={`border-b-1 py-3 ${px} flex flex-row justify-between items-center cursor-pointer group`}
             key={nav.id}
+            onClick={() => {
+              if (nav.items.length > 0) {
+                // Handle navigation to sub-items or toggle visibility
+              } else {
+                // Navigate to the main link
+                window.location.href = nav.href;
+              }
+            }}
           >
             <div className="font-bold group-hover:text-gradient">
               {nav.name}

@@ -12,7 +12,7 @@ const FooterComponent = () => {
     <footer className="py-8 pt-14 sm:pt-20 border-t border-gray-300">
       <div className={`container grid md:grid-cols-2 ${gap}`}>
         <div className="space-y-5 lg:text-left">
-          <LogoComponent logo="NFTHub" className="text-gradient" />
+          <LogoComponent logo="SIM" className="text-gradient" />
           <p className="lg:w-[70%]">
             Join our Discord channel or follow us on Twitter to keep up to date
             with our latest work and announcements.

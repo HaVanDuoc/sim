@@ -5,6 +5,7 @@ const pathPage = {
     about: "about",
     roadmap: "roadmap",
     blog: "blog",
+    chotca: "chotca",
 }
 
 export default pathPage
